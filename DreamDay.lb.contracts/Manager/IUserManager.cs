@@ -20,7 +20,7 @@ namespace DreamDay.lb.contracts.Manager
         Task<ResponseBase> GetAllUserAsync();
 
         //View
-        Task<ResponseBase> ViewUserDetailAsync(UserRequest request);
+        Task<ResponseBase> ViewUserAsync(UserRequest request);
 
         //Delete
         Task<ResponseBase> DeleteUserAsync(UserRequest request);
